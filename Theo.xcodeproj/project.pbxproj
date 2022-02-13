@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106D992E27B5D1E8007564C1 /* TheoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D992D27B5D1E8007564C1 /* TheoApp.swift */; };
+		106D993027B5D1E8007564C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D992F27B5D1E8007564C1 /* ContentView.swift */; };
+		106D993227B5D1EA007564C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106D993127B5D1EA007564C1 /* Assets.xcassets */; };
+		106D993527B5D1EA007564C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106D993427B5D1EA007564C1 /* Preview Assets.xcassets */; };
+		106D993F27B5D1EA007564C1 /* TheoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D993E27B5D1EA007564C1 /* TheoTests.swift */; };
+		106D994927B5D1EA007564C1 /* TheoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D994827B5D1EA007564C1 /* TheoUITests.swift */; };
+		106D994B27B5D1EA007564C1 /* TheoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D994A27B5D1EA007564C1 /* TheoUITestsLaunchTests.swift */; };
+		10D19E9027B6810E00993A90 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8527B6810C00993A90 /* Lato-Thin.ttf */; };
+		10D19E9127B6810E00993A90 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8627B6810C00993A90 /* Lato-Black.ttf */; };
+		10D19E9227B6810E00993A90 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8727B6810C00993A90 /* Lato-BoldItalic.ttf */; };
+		10D19E9327B6810E00993A90 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8827B6810C00993A90 /* Lato-Regular.ttf */; };
+		10D19E9427B6810E00993A90 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8927B6810D00993A90 /* Lato-Italic.ttf */; };
+		10D19E9527B6810E00993A90 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8A27B6810D00993A90 /* Lato-ThinItalic.ttf */; };
+		10D19E9627B6810E00993A90 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8B27B6810D00993A90 /* OFL.txt */; };
+		10D19E9727B6810E00993A90 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8C27B6810D00993A90 /* Lato-Bold.ttf */; };
+		10D19E9827B6810E00993A90 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8D27B6810E00993A90 /* Lato-Light.ttf */; };
+		10D19E9927B6810E00993A90 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8E27B6810E00993A90 /* Lato-BlackItalic.ttf */; };
+		10D19E9A27B6810E00993A90 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D19E8F27B6810E00993A90 /* Lato-LightItalic.ttf */; };
+		10D19E9C27B69C2E00993A90 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D19E9B27B69C2E00993A90 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		106D993B27B5D1EA007564C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106D992227B5D1E8007564C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106D992927B5D1E8007564C1;
+			remoteInfo = Theo;
+		};
+		106D994527B5D1EA007564C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106D992227B5D1E8007564C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106D992927B5D1E8007564C1;
+			remoteInfo = Theo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106D992A27B5D1E8007564C1 /* Theo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106D992D27B5D1E8007564C1 /* TheoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoApp.swift; sourceTree = "<group>"; };
+		106D992F27B5D1E8007564C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		106D993127B5D1EA007564C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		106D993427B5D1EA007564C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		106D993A27B5D1EA007564C1 /* TheoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106D993E27B5D1EA007564C1 /* TheoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoTests.swift; sourceTree = "<group>"; };
+		106D994427B5D1EA007564C1 /* TheoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106D994827B5D1EA007564C1 /* TheoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoUITests.swift; sourceTree = "<group>"; };
+		106D994A27B5D1EA007564C1 /* TheoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10D19E8527B6810C00993A90 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		10D19E8627B6810C00993A90 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		10D19E8727B6810C00993A90 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		10D19E8827B6810C00993A90 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		10D19E8927B6810D00993A90 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		10D19E8A27B6810D00993A90 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		10D19E8B27B6810D00993A90 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		10D19E8C27B6810D00993A90 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		10D19E8D27B6810E00993A90 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		10D19E8E27B6810E00993A90 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		10D19E8F27B6810E00993A90 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		10D19E9B27B69C2E00993A90 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106D992727B5D1E8007564C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106D993727B5D1EA007564C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106D994127B5D1EA007564C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106D992127B5D1E8007564C1 = {
+			isa = PBXGroup;
+			children = (
+				106D992C27B5D1E8007564C1 /* Theo */,
+				106D993D27B5D1EA007564C1 /* TheoTests */,
+				106D994727B5D1EA007564C1 /* TheoUITests */,
+				106D992B27B5D1E8007564C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		106D992B27B5D1E8007564C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106D992A27B5D1E8007564C1 /* Theo.app */,
+				106D993A27B5D1EA007564C1 /* TheoTests.xctest */,
+				106D994427B5D1EA007564C1 /* TheoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106D992C27B5D1E8007564C1 /* Theo */ = {
+			isa = PBXGroup;
+			children = (
+				10D19E8427B6808E00993A90 /* Fonts */,
+				106D992D27B5D1E8007564C1 /* TheoApp.swift */,
+				106D992F27B5D1E8007564C1 /* ContentView.swift */,
+				10D19E9B27B69C2E00993A90 /* InfoView.swift */,
+				106D993127B5D1EA007564C1 /* Assets.xcassets */,
+				106D993327B5D1EA007564C1 /* Preview Content */,
+			);
+			path = Theo;
+			sourceTree = "<group>";
+		};
+		106D993327B5D1EA007564C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				106D993427B5D1EA007564C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		106D993D27B5D1EA007564C1 /* TheoTests */ = {
+			isa = PBXGroup;
+			children = (
+				106D993E27B5D1EA007564C1 /* TheoTests.swift */,
+			);
+			path = TheoTests;
+			sourceTree = "<group>";
+		};
+		106D994727B5D1EA007564C1 /* TheoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				106D994827B5D1EA007564C1 /* TheoUITests.swift */,
+				106D994A27B5D1EA007564C1 /* TheoUITestsLaunchTests.swift */,
+			);
+			path = TheoUITests;
+			sourceTree = "<group>";
+		};
+		10D19E8427B6808E00993A90 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				10D19E8627B6810C00993A90 /* Lato-Black.ttf */,
+				10D19E8E27B6810E00993A90 /* Lato-BlackItalic.ttf */,
+				10D19E8C27B6810D00993A90 /* Lato-Bold.ttf */,
+				10D19E8727B6810C00993A90 /* Lato-BoldItalic.ttf */,
+				10D19E8927B6810D00993A90 /* Lato-Italic.ttf */,
+				10D19E8D27B6810E00993A90 /* Lato-Light.ttf */,
+				10D19E8F27B6810E00993A90 /* Lato-LightItalic.ttf */,
+				10D19E8827B6810C00993A90 /* Lato-Regular.ttf */,
+				10D19E8527B6810C00993A90 /* Lato-Thin.ttf */,
+				10D19E8A27B6810D00993A90 /* Lato-ThinItalic.ttf */,
+				10D19E8B27B6810D00993A90 /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106D992927B5D1E8007564C1 /* Theo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106D994E27B5D1EA007564C1 /* Build configuration list for PBXNativeTarget "Theo" */;
+			buildPhases = (
+				106D992627B5D1E8007564C1 /* Sources */,
+				106D992727B5D1E8007564C1 /* Frameworks */,
+				106D992827B5D1E8007564C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Theo;
+			productName = Theo;
+			productReference = 106D992A27B5D1E8007564C1 /* Theo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		106D993927B5D1EA007564C1 /* TheoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106D995127B5D1EA007564C1 /* Build configuration list for PBXNativeTarget "TheoTests" */;
+			buildPhases = (
+				106D993627B5D1EA007564C1 /* Sources */,
+				106D993727B5D1EA007564C1 /* Frameworks */,
+				106D993827B5D1EA007564C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106D993C27B5D1EA007564C1 /* PBXTargetDependency */,
+			);
+			name = TheoTests;
+			productName = TheoTests;
+			productReference = 106D993A27B5D1EA007564C1 /* TheoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		106D994327B5D1EA007564C1 /* TheoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106D995427B5D1EA007564C1 /* Build configuration list for PBXNativeTarget "TheoUITests" */;
+			buildPhases = (
+				106D994027B5D1EA007564C1 /* Sources */,
+				106D994127B5D1EA007564C1 /* Frameworks */,
+				106D994227B5D1EA007564C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106D994627B5D1EA007564C1 /* PBXTargetDependency */,
+			);
+			name = TheoUITests;
+			productName = TheoUITests;
+			productReference = 106D994427B5D1EA007564C1 /* TheoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106D992227B5D1E8007564C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					106D992927B5D1E8007564C1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					106D993927B5D1EA007564C1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 106D992927B5D1E8007564C1;
+					};
+					106D994327B5D1EA007564C1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 106D992927B5D1E8007564C1;
+					};
+				};
+			};
+			buildConfigurationList = 106D992527B5D1E8007564C1 /* Build configuration list for PBXProject "Theo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 106D992127B5D1E8007564C1;
+			productRefGroup = 106D992B27B5D1E8007564C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106D992927B5D1E8007564C1 /* Theo */,
+				106D993927B5D1EA007564C1 /* TheoTests */,
+				106D994327B5D1EA007564C1 /* TheoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		106D992827B5D1E8007564C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D19E9127B6810E00993A90 /* Lato-Black.ttf in Resources */,
+				10D19E9727B6810E00993A90 /* Lato-Bold.ttf in Resources */,
+				10D19E9427B6810E00993A90 /* Lato-Italic.ttf in Resources */,
+				10D19E9827B6810E00993A90 /* Lato-Light.ttf in Resources */,
+				10D19E9327B6810E00993A90 /* Lato-Regular.ttf in Resources */,
+				10D19E9627B6810E00993A90 /* OFL.txt in Resources */,
+				106D993527B5D1EA007564C1 /* Preview Assets.xcassets in Resources */,
+				10D19E9027B6810E00993A90 /* Lato-Thin.ttf in Resources */,
+				10D19E9927B6810E00993A90 /* Lato-BlackItalic.ttf in Resources */,
+				10D19E9527B6810E00993A90 /* Lato-ThinItalic.ttf in Resources */,
+				106D993227B5D1EA007564C1 /* Assets.xcassets in Resources */,
+				10D19E9227B6810E00993A90 /* Lato-BoldItalic.ttf in Resources */,
+				10D19E9A27B6810E00993A90 /* Lato-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106D993827B5D1EA007564C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106D994227B5D1EA007564C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106D992627B5D1E8007564C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106D993027B5D1E8007564C1 /* ContentView.swift in Sources */,
+				10D19E9C27B69C2E00993A90 /* InfoView.swift in Sources */,
+				106D992E27B5D1E8007564C1 /* TheoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106D993627B5D1EA007564C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106D993F27B5D1EA007564C1 /* TheoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106D994027B5D1EA007564C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106D994B27B5D1EA007564C1 /* TheoUITestsLaunchTests.swift in Sources */,
+				106D994927B5D1EA007564C1 /* TheoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		106D993C27B5D1EA007564C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106D992927B5D1E8007564C1 /* Theo */;
+			targetProxy = 106D993B27B5D1EA007564C1 /* PBXContainerItemProxy */;
+		};
+		106D994627B5D1EA007564C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106D992927B5D1E8007564C1 /* Theo */;
+			targetProxy = 106D994527B5D1EA007564C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		106D994C27B5D1EA007564C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		106D994D27B5D1EA007564C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		106D994F27B5D1EA007564C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Theo/Preview Content\"";
+				DEVELOPMENT_TEAM = WTTP3XASSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adh.Theo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		106D995027B5D1EA007564C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Theo/Preview Content\"";
+				DEVELOPMENT_TEAM = WTTP3XASSU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adh.Theo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		106D995227B5D1EA007564C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTTP3XASSU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adh.TheoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theo.app/Theo";
+			};
+			name = Debug;
+		};
+		106D995327B5D1EA007564C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTTP3XASSU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adh.TheoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theo.app/Theo";
+			};
+			name = Release;
+		};
+		106D995527B5D1EA007564C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTTP3XASSU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adh.TheoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Theo;
+			};
+			name = Debug;
+		};
+		106D995627B5D1EA007564C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTTP3XASSU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = adh.TheoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Theo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106D992527B5D1E8007564C1 /* Build configuration list for PBXProject "Theo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106D994C27B5D1EA007564C1 /* Debug */,
+				106D994D27B5D1EA007564C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106D994E27B5D1EA007564C1 /* Build configuration list for PBXNativeTarget "Theo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106D994F27B5D1EA007564C1 /* Debug */,
+				106D995027B5D1EA007564C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106D995127B5D1EA007564C1 /* Build configuration list for PBXNativeTarget "TheoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106D995227B5D1EA007564C1 /* Debug */,
+				106D995327B5D1EA007564C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106D995427B5D1EA007564C1 /* Build configuration list for PBXNativeTarget "TheoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106D995527B5D1EA007564C1 /* Debug */,
+				106D995627B5D1EA007564C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 106D992227B5D1E8007564C1 /* Project object */;
+}
